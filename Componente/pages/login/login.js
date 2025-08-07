@@ -24,10 +24,16 @@ function login() {
     let btnContenedor = document.createElement('div');
     btnContenedor.className = "button-container";
 
+
+
     let loginBtn = document.createElement('button');
     loginBtn.className = "login-btn";
     loginBtn.textContent = "LOG IN";
     btnContenedor.appendChild(loginBtn);
+
+    loginBtn.addEventListener('click',()=>{alert("Hola mundo")});
+        
+
 
     let orText = document.createElement('div');
     orText.className = "or-text";

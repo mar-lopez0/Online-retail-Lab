@@ -13,19 +13,19 @@
     background-position: top;
     }
 
-    .login-titulo {
-    font-size: 32px;
+    .login-title {
+    font-size: 50px;
     margin: 80px 0 20px 0;
     }
 
-    .login-subtitulo {
+    .login-subtitle {
     text-align: center;
     font-weight: bold;
     margin: 0 0 15px 0;
     font-size: 18px;
     }
 
-    .login-descripcion {
+    .login-description {
     text-align: center;
     font-size: 14px;
     color: #555;
@@ -33,19 +33,20 @@
     max-width: 300px;
     }
 
-    .button-contenedor {
+    .button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     width: 100%;
     max-width: 250px;
+    
     }
 
     .login-btn {
     width: 100%;
     padding: 12px;
-    border-radius: 25px;
+    border-radius: 50px;
     border: 1px solid black;
     background: white;
     font-weight: bold;
@@ -58,7 +59,7 @@
     color: #555;
     }
 
-    .register-btn{ 
+    .register-btn{
     width: 100%;
     padding: 12px;
     border-radius: 25px;
