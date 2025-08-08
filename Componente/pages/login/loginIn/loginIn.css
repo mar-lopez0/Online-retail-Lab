@@ -1,0 +1,113 @@
+.contenedor-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+}
+
+.tarjeta-login {
+    width: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.encabezado-login {
+    color: #fff;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+    position: relative;
+    background-image: url('../../../../assets/LoginIn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado-login .flecha-atras {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 26px;
+}
+
+.encabezado-login h2 {
+    margin: 40px 0 10px;
+}
+
+.encabezado-login p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    font-weight: 1000;
+}
+
+.texto-login {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.formulario-login {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-con-icono {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+.input-con-icono span {
+    margin-right: 8px;
+}
+
+.input-con-icono input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px 0;
+}
+
+.opciones-login {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.boton-login {
+    background: #8e44ad;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-login:hover {
+    background: #732d91;
+}
+
+.texto-cuenta {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.texto-cuenta a {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+.texto-cuenta a:hover {
+    text-decoration: underline;
+}

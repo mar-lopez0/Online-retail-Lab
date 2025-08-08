@@ -31,10 +31,11 @@ function login() {
     loginBtn.textContent = "LOG IN";
     btnContenedor.appendChild(loginBtn);
 
-    loginBtn.addEventListener('click',()=>{alert("Hola mundo")});
-        
-
-
+    loginBtn.addEventListener('click', () => {
+        window.location.href = './loginIn/loginIn.html'; // Redirige a la página de inicio de sesión
+    });
+    
+    
     let orText = document.createElement('div');
     orText.className = "or-text";
     orText.textContent = "--- OR ---";
