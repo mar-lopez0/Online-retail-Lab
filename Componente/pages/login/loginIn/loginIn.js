@@ -103,7 +103,19 @@ function login() {
     tarjeta.appendChild(formulario);
     login.appendChild(tarjeta);
 
+    // 🔹 Agrego el listener
+    botonLogin.addEventListener('click', (e) => {
+        e.preventDefault(); // Evita que el form recargue la página
+        if (typeof banner2Div !== "undefined" && typeof banner3Div !== "undefined") {
+            banner2Div.classList.add("hidden");
+            banner3Div.classList.remove("hidden");
+        } else {
+            console.warn("Los banners no están definidos");
+        }
+    });
+
     return login;
 }
 
+// Monto la vista
 document.body.appendChild(login());
